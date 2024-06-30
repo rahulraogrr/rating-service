@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: rating-service
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017
+      database: hotels
+
+server:
+  port: 8083
